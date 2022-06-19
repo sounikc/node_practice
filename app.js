@@ -116,3 +116,10 @@ server.listen(3000, hostname,()=>{
 // ~ is more stipper than ^ as ^ supports any major version till that specific and it will not dependent on minor and major
 // ^4.5.1 means it support all version till major version 4 (4.x.x)
 //~4.5.1 (4.5.x)
+
+//Package related commands
+//npm list //to see all the packages
+//npm list --depth=0 //to see only the dependant packages
+//npm view mongoose versions // to see all the version of mongoose that has been released so far
+//npm view mongoose dependencies
+//npm i mongoose@6.3.9 //to install specific package version
