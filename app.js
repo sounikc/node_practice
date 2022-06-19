@@ -111,3 +111,8 @@ server.listen(3000, hostname,()=>{
 //1. is it a core module?
 //2. is it file/folder?
 //3. is this in node_modules?
+
+// SEMVER
+// ~ is more stipper than ^ as ^ supports any major version till that specific and it will not dependent on minor and major
+// ^4.5.1 means it support all version till major version 4 (4.x.x)
+//~4.5.1 (4.5.x)
