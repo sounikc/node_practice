@@ -123,3 +123,4 @@ server.listen(3000, hostname,()=>{
 //npm view mongoose versions // to see all the version of mongoose that has been released so far
 //npm view mongoose dependencies
 //npm i mongoose@6.3.9 //to install specific package version
+//npm outdatd
